@@ -1,0 +1,90 @@
+*{
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.yourGold{
+  background-color: lightgreen;
+  display: inline-block;
+  width: 450px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid black;
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-bottom: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-bottom: 6px;
+}
+
+  .yourGold h3{
+    display: inline-block;
+  }
+
+  .yourGold .goldCount{
+    display: inline-block;
+    background-color: lightyellow;
+    border: 1px solid black;
+    height: 20px;
+    width: 80px;
+    margin-left: 15px;
+    padding-left: 10px;
+  }
+
+  .goldCount p{
+    line-height: 20px;
+  }
+
+.main{
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid silver;
+}
+
+.box{
+  display: inline-block;
+  border: 1px solid black;
+  width: 215px;
+  height: 125px;
+  text-align: center;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.box h2, .box p, .box input{
+  margin-top: 15px;
+}
+
+.logTitle{
+  text-align: center;
+}
+
+
+.activityLog{
+  width: 65%;
+  height: 150px;
+  border: 2px solid black;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+.activityLog li{
+  margin-left: 5px;
+  font-size: .9em;
+  list-style-type: none;
+}
+
+.add{
+  color: green;
+}
+
+.loss{
+  color: red;
+}
+
+
+.reset{
+  text-align: center;
+}
